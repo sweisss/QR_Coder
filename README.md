@@ -1,7 +1,7 @@
 # QR Coder
 A simple QR code genergator command line tool.
 
-## Usage
+## Setup
 Clone this repo in to the directory of your choice. 
 
 Open a Lnix style terminal (if you're on Windows, use WSL) and create a virtual environment:
@@ -26,6 +26,7 @@ chmod +x ./qr_coder.py
 
 Use your text editor to ensure the line endings are `LF` rather than `CRLF`.
 
+## Usage
 Run the program with optional outputs:
 - `-svg` outputs an SVG file
 - `-png` outputs a PNG file
