@@ -4,7 +4,7 @@ A simple QR code genergator command line tool.
 ## Usage
 Clone this repo in to the directory of your choice. 
 
-Open a Unix terminal (if you're on Windows, use WSL) and create a virtual environment:
+Open a Lnix style terminal (if you're on Windows, use WSL) and create a virtual environment:
 ```
 python -m venv venv
 ```
@@ -23,6 +23,8 @@ Make the program executable:
 ```
 chmod +x ./qr_coder.py
 ```
+
+Use your text editor to ensure the line endings are `LF` rather than `CRLF`.
 
 Run the program with optional outputs:
 - `-svg` outputs an SVG file
