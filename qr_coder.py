@@ -56,7 +56,8 @@ def write_qr_png(qr):
 
 def generate_qr(data='', svg=False, png=False):
     """
-    Generates a QR code that encodes the URI Google Authenticator expects.
+    Generates a QR from the given data string.
+    Calls the appropriate SVG and PNG functions based on Boolean parameters.
     """
     qr = QRCode()
     qr.add_data(data)
