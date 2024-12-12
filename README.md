@@ -4,7 +4,7 @@ A simple QR code genergator command line tool.
 ## Setup
 Clone this repo in to the directory of your choice. 
 
-Open a Lnix style terminal (if you're on Windows, use WSL) and create a virtual environment:
+Open a Linix style terminal (if you're on Windows, use WSL) and create a virtual environment:
 ```
 python -m venv venv
 ```
