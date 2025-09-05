@@ -1,5 +1,5 @@
 # QR Coder
-A simple QR code genergator command line tool.
+A simple QR code generator command line tool.
 
 ## Setup
 Clone this repo in to the directory of your choice. 
